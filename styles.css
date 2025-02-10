@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    text-align: center;
+    align-items: center;
+    margin-left: 20%;
+    margin-top: 100px;
+    padding: 50px;
+    color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    width: 900px;
+}
+div {
+    width: 800px;
+    background-color: black;
+    border-radius: 10px;
+}
+h1 {
+    font-size: 3rem;
+}
+h2 {
+    font-size: 1.5rem;
+}
+
+.assignment {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+a {
+    text-decoration: none;
+    background-color: purple;
+    color: white;
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 10px;
+}
+a:hover {
+    background-color: black;
+}
